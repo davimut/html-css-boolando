@@ -4,9 +4,11 @@
 	box-sizing: border-box;
 }
 
-ul,
-ol,
-menu {
+.main-menu a, .note-legali a  { 
+	 color: white;
+     text-decoration: none;
+}
+ul,ol {
 	list-style: none;
 }
 
@@ -42,11 +44,13 @@ img {
 	align-items: center;
 }
 
-.main-menu {
+.main-menu , .icon-social { 
+	flex-wrap: wrap;
 	display: flex;
 }
-.profile-icon {
-	width: 20px;
+.icon-menu {
+	display:flex;
+	width: 100px;
 }
 
 .logo img {
@@ -55,10 +59,10 @@ img {
 }
 
 .menu__item {
-padding: 5px;
+	padding: 5px;
 }
-.col-33 {
 
+.col-33 {
 	width: calc(100% / 3);
 }
 
@@ -71,7 +75,9 @@ padding: 5px;
     ;
 	margin: 50PX;
 }
+
 .col-33 :hover {
+	border: 1px solid rgb(255, 128, 0);
 	background-color: rgb(255, 128, 0);
 }
 
@@ -83,6 +89,7 @@ padding: 5px;
 .brand-name{
     font-weight: 5px;
 }
+
 .items-info{
 	padding: 10px;
     border: 1px solid rgba(187, 185, 185, 0.55);
@@ -95,4 +102,29 @@ padding: 5px;
 .items-info :last-child {
     display: inline-block;
     text-decoration: line-through;
+}
+
+
+.page-footer {
+	background-color: rgb(31, 31, 31);
+	color: white;
+}
+
+.page-footer .row {
+	justify-content: space-between;
+	height: 90px;
+	align-items: center;
+}
+
+.note-legali{
+	    display: flex;
+		font-size: 10px;
+		gap: 10px;
+}
+
+
+.icon-social > img {
+	width: 20px;
+	display:block;
+
 }
