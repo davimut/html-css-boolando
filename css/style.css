@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 .main-menu a, .note-legali a  { 
 	 color: white;
      text-decoration: none;
@@ -11,28 +10,24 @@
 ul,ol {
 	list-style: none;
 }
-
 img {
 	
 	max-width: 100%;
 }
-
 .container {
 	max-width: 1024px;
 	margin: 0 auto;
 }
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 24px;
 }
-
 .row > * {
 	padding: 0 5px;
 }
 
-/* HEADER */
+
 .page-header {
 	background-color: rgb(243, 81, 0);
 	color: white;
@@ -49,47 +44,46 @@ img {
 	display: flex;
 }
 .icon-menu {
+	justify-content: center;
 	display:flex;
 	width: 100px;
 }
 
+.icon-menu img {
+	width: 25px;
+	margin: 2px;
+}
 .logo img {
 	height: 30px;
 	display: block;
 }
-
 .menu__item {
 	padding: 5px;
 }
 
+
 .col-33 {
 	width: calc(100% / 3);
 }
-
-.expo-produit {
-	padding: 80px 0;
-}
- 
-.titolo-shop {
-    text-align: center;
-    ;
-	margin: 50PX;
-}
-
 .col-33 :hover {
 	border: 1px solid rgb(255, 128, 0);
 	background-color: rgb(255, 128, 0);
 }
+.expo-produit {
+	padding: 80px 0;
+}
+.titolo-shop {
+    text-align: center;
+    ;
+	margin: 20PX;
+}
+
+
 
 .card-item img {
 	width: 700px;
 	display: block;
 }
-
-.brand-name{
-    font-weight: 5px;
-}
-
 .items-info{
 	padding: 10px;
     border: 1px solid rgba(187, 185, 185, 0.55);
@@ -98,7 +92,6 @@ img {
     font-weight: bolder;
     color: red;
 }
-
 .items-info :last-child {
     display: inline-block;
     text-decoration: line-through;
@@ -109,22 +102,18 @@ img {
 	background-color: rgb(31, 31, 31);
 	color: white;
 }
-
 .page-footer .row {
 	justify-content: space-between;
 	height: 90px;
 	align-items: center;
 }
-
 .note-legali{
 	    display: flex;
 		font-size: 10px;
 		gap: 10px;
 }
-
-
 .icon-social > img {
-	width: 20px;
+	width: 25px;
 	display:block;
 
 }
