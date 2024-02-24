@@ -1,3 +1,4 @@
+/* REGOLE RESET  */
 * {
 	margin: 0;
 	padding: 0;
@@ -11,11 +12,10 @@ ul,ol {
 	list-style: none;
 }
 img {
-	
 	max-width: 100%;
 }
 .container {
-	max-width: 1024px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 .row {
@@ -27,7 +27,7 @@ img {
 	padding: 0 5px;
 }
 
-
+/* HEADER */
 .page-header {
 	background-color: rgb(243, 81, 0);
 	color: white;
@@ -48,12 +48,12 @@ img {
 	display:flex;
 	width: 100px;
 }
-
 .icon-menu img {
 	width: 25px;
 	margin: 2px;
 }
 .logo img {
+	margin-right: 100px;
 	height: 30px;
 	display: block;
 }
@@ -61,7 +61,7 @@ img {
 	padding: 5px;
 }
 
-
+/* MAIN */
 .col-33 {
 	width: calc(100% / 3);
 }
@@ -74,12 +74,8 @@ img {
 }
 .titolo-shop {
     text-align: center;
-    ;
 	margin: 20PX;
 }
-
-
-
 .card-item img {
 	width: 700px;
 	display: block;
@@ -97,14 +93,14 @@ img {
     text-decoration: line-through;
 }
 
-
+/* FOOTER */
 .page-footer {
 	background-color: rgb(31, 31, 31);
 	color: white;
 }
 .page-footer .row {
 	justify-content: space-between;
-	height: 90px;
+	height: 80px;
 	align-items: center;
 }
 .note-legali{
